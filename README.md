@@ -13,19 +13,19 @@ Use the [Airbnb Style Guide](https://github.com/airbnb/javascript) with the foll
 
 ## ESLint Configuration
 
-The AirBnB guys provide an ESLint config that we're extending. See [eslintrc.js](/eslintrc.js) for more information.
+The AirBnB guys provide an ESLint config that we're extending. See [eslintrc.js](https://github.com/KanoComputing/eslint-config-kano/blob/master/eslintrc.js) for more information.
 
 ## Adding Kano ESLint config to your project
 
 Add the following dev-depencencies:
 
-```
+```bash
 npm i --save-dev eslint eslint-config-kano eslint-plugin-import eslint-plugin-html
 ```
 
 Create an eslint configuration file in your repo `.eslintrc.js`:
 
-```
+```js
 module.exports = {
     extends: "kano",
     rules: [
@@ -36,7 +36,7 @@ module.exports = {
 
 Then you'll need to configure your editor to run eslint using the project configuration.
 
-## VSCode Configuration
+## VSCode Configuration
 
 Install the [ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) from the VS Code marketplace.
 
