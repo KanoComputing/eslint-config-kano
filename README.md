@@ -60,4 +60,11 @@ Make sure to disable `linter-jshint`, `linter-jscs` and other linters that might
 
 ## Sublime Text Configuration
 
-Somebody will need to fill this in.
+For Sublime Text, install the following packages
+
+* [SublimeLinter](http://www.sublimelinter.com/en/latest/)
+* [SublimeLinter-eslint](https://github.com/SublimeLinter/SublimeLinter-eslint)
+
+Make sure to install the packages in that order, otherwise the eslint plugin won't be picked up.
+
+The default configuration is enough to pick up both `eslint` and `.eslintrc.js` from the project folder.
