@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-kano",
+  "version": "0.1.0",
+  "description": "Kano Computing JS Style Guide extension of airbnb-base",
+  "main": "eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KanoComputing/eslint-config-kano.git"
+  },
+  "author": "Radek Pazdera <me@radek.io> (http://radek.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KanoComputing/eslint-config-kano/issues"
+  },
+  "homepage": "https://github.com/KanoComputing/eslint-config-kano#readme",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^12.1.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-html": "^4.0.2"
+  }
+}
