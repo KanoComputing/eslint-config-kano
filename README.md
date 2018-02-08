@@ -28,9 +28,9 @@ Create an eslint configuration file in your repo `.eslintrc.js`:
 ```js
 module.exports = {
     extends: "kano",
-    rules: [
+    rules: {
         /* add any project-specific rules */
-    ]
+    }
 };
 ```
 
