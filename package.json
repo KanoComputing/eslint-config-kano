@@ -1,6 +1,6 @@
 {
   "name": "@kano/eslint-config",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Kano Computing JS Style Guide extension of airbnb-base",
   "main": "eslintrc.js",
   "scripts": {
