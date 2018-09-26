@@ -6,10 +6,7 @@ This will apply to all new projects. We'll be moving old code to the new style a
 
 ## Style Guide
 
-Use the [Airbnb Style Guide](https://github.com/airbnb/javascript) with the following modifications:
-
- * Use 4 spaces for indentation instead of 2
- * Allow leading underscore for identifiers.
+We use the [Airbnb Style Guide](https://github.com/airbnb/javascript) and evolve the configuration with our own preferences
 
 ## ESLint Configuration
 
@@ -20,7 +17,7 @@ The AirBnB guys provide an ESLint config that we're extending. See [eslintrc.js]
 Add the following dev-depencencies:
 
 ```bash
-npm i --save-dev eslint eslint-config-kano eslint-plugin-import eslint-plugin-html
+yarn add --dev @kano/eslint-config
 ```
 
 Create an eslint configuration file in your repo `.eslintrc.js`:
