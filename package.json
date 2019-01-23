@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/KanoComputing/eslint-config-kano#readme",
   "dependencies": {
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint": "^4.16.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-html": "^4.0.2"
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-html": "^4.0.2",
+    "eslint-plugin-import": "^2.15.0"
   }
 }
